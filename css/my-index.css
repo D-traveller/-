@@ -1,0 +1,94 @@
+*{padding: 0;margin: 0;}
+a{text-decoration: none;color: #000;}
+html{font-size: 62.5%;}
+/* 主题背景 */
+body{
+    background-color: rgba(236, 228, 228, 0.363);
+}
+/* 头像用户 */
+header .bg{
+    height: 22rem;
+    background: url(../image/my/bg1.png) no-repeat;
+    background-size: cover;
+}
+header .bg p{
+    display: flex;
+    justify-content: flex-end;
+}
+header .bg p a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 1.5rem;
+}
+header .bg p a img{
+    width: 60%;
+}
+header .bg p a span{
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    font-weight: 200;
+}
+header .bg p a .app{
+    font-size: 1.65rem;
+}
+header .text{
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+header .text .icon2{
+    width: 6rem;
+    height: 6rem;
+    background: url(../image/my/urse2.png) no-repeat;
+    border-radius: 50%;
+    background-size: cover;
+}
+header .text .register{
+    width: 3rem;
+    color: white;
+    padding: .8rem 2rem;
+    display: block;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+/* 网站链接 */
+article{
+    margin-top: 1.5rem;
+}
+article .text-a{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+article .text-a a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem 0rem;
+    margin: 0 2rem;
+    border-bottom: 1px solid #ccc;  
+    color: rgb(129, 125, 125);
+}
+article .text-a a:nth-of-type(4){
+    border: none;
+}
+article .text-a a span img{
+    width: 1rem;
+    height: 1.5rem;
+}
+article .text-a a p{
+    font-size: 1.4rem;
+    display: inline-block;
+    
+}
+article .text-a a p img{
+    width: 15%;
+}
+
+
+

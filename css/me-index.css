@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(236, 228, 228, 0.246);
+}
+/* 导航 */
+nav{
+    width: 100%;
+    /* height: 3rem; */
+    padding: 1rem 0rem 1rem 2rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    background-color: #fff;
+}
+nav .left{
+    color: #000;
+    font-weight: 800;
+}
+/* 头像用户 */
+article{
+    height: 18rem;
+    
+}
+article .bg{
+    background: url(../image/my/bg2.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+article .icon{
+    width: 6rem;
+    height: 6rem;
+    background: url(../image/my/urse2.png) no-repeat;
+    border-radius: 50%;
+    background-size: cover;
+}
+article p{
+    color: white;
+    font-size: 1.5rem;
+}
+/* 资源链接 */
+.text-a{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.text-a a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem 0rem;
+    margin: 0 2rem;
+    color: rgb(112, 112, 112);
+}
+.text-a a:nth-of-type(2){
+    margin: 0 2rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;  
+}
+.text-a a span img{
+    width: 1rem;
+    height: 1.5rem;
+}
+.text-a a p{
+    font-size: 1.5rem;
+    display: inline-block;
+}
+/* 登录按钮 */
+button{
+    color: rgb(246, 62, 62);
+    width: 90%;
+    padding: 1.5rem 0;
+    margin: 3rem 5%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}

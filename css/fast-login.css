@@ -1,0 +1,96 @@
+/* 导航 */
+nav{
+    width: 100%;
+    /* height: 3rem; */
+    padding: 1rem 0rem 1rem 2rem;
+    font-weight: 200;
+    font-size: 1.3rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+nav .left{
+    color: #000;
+    font-weight: 800;
+}
+/* 登录类型 */
+.login-type{
+    /* border-top: 1px solid #ccc; */
+    height: 4rem;
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: center;
+    align-items: center;
+    
+}
+.login-type a{
+    width: 50%;
+}
+.login-type a:nth-of-type(2){
+    line-height: 4rem;
+    border-bottom: 5px solid rgb(243, 170, 13);
+}
+/* 验证 */
+.text{
+    position: relative;
+}
+#close{
+    position: absolute;
+    right: .2rem;
+    top: 1rem;
+    color: #FF4500;
+    border: none;
+    display: none;
+}
+#close2{
+    position: absolute;
+    right: .2rem;
+    top: 5.1rem;
+    color: #FF4500;
+    border: none;
+}
+#close3{
+    position: absolute;
+    left: .2rem;
+    top: 8.5rem;
+    color: #FF4500;
+    border: none;
+    display: none;
+}
+.text input{
+    width: 100%;
+    padding: 1.5rem 0;
+    border: 1px solid #ccc;
+    text-indent: 1rem;
+    font-size: 1.2rem;
+}
+.text span{
+    border: 1px solid #ccc;
+    padding: .8rem;
+    position: absolute;
+    right: 1rem;
+    top: .5rem;
+    border-radius: 4px;
+}
+/* #get{
+    color: #ccc;
+} */
+/* 按钮 */
+#button{
+    color: white;
+    width: 90%;
+    padding: 1.5rem 0;
+    margin: 2.5rem 5%;
+    background-color: rgb(245, 189, 6);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* 脚步 */
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+footer .register{
+    color: rgb(235, 82, 82);
+}

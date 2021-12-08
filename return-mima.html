@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/return-mima.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./image/index/logo.jpg" alt="">
+            </a>
+        </div>
+        <div class="icon">
+            <a id="me"><img src="./image/index/my.jpg" alt=""></a>
+            <a href="#"><img src="./image/index/xiazai.jpg" alt=""></a>
+        </div>
+    </header>
+    <!-- 导航 -->
+    <nav>
+        <span class="left">
+            <a href="./my-index.html">首页</a>
+            >
+        </span>
+        <span>
+            <a href="#">找回密码</a>
+        </span>
+    </nav>
+    <!-- 验证 -->
+    <div class="text">
+        <input type="text" placeholder="请输入手机号码" id="phone">
+        <!-- <span></span> -->
+        <p id="yanzheng">发送验证码</p>
+        <input type="text" placeholder="请输入短信验证码" id="duanxin">
+        <span id="close">验证码错误</span>
+        <input type="password" placeholder="请输入新密码" id="pw">
+        <span id="close2">密码格式有误</span>
+        <span id="close2-3">查看密码</span>
+        <input type="password" placeholder="请输入确认密码" id="pws">
+        <span id="close3">密码格式有误</span>
+        <span id="close3-3">查看密码</span>
+    </div>
+    <input type="submit" value="提交" id="button">
+</body>
+</html>
+<script src="./js/return-mima.js"></script>
+<!-- <script src="./js/all.js"></script> -->
